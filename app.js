@@ -10,14 +10,20 @@ function checkLuck(){
     let luckFactor = calculateSum(dob)
     givenNumber = Number(luckyNumber.value)
 
-    console.log(givenNumber)
-    if(luckFactor%givenNumber ==0) {
-        outputH.innerText = "You are lucky my Boi/Gurl"
+    console.log(dob, givenNumber, luckFactor)
+    if (dob == "" || givenNumber == 0){
+        outputH.innerText = "Enter valid inputs"
+    } else {
+        if(luckFactor%givenNumber ==0) {
+            outputH.innerText = "You are lucky my Boi/Gurl"
+        }
+    
+        else {
+            outputH.innerText = "Congratulations, you are now eligible to make your own luck"
+        }
     }
 
-    else {
-        outputH.innerText = "Congratulations, you are now eligible to make your own luck"
-    }
+    
 
 }
 
@@ -29,6 +35,5 @@ function calculateSum(dob){
         
         sum = sum + Number(dob.charAt(i))
     }
-
     return sum
 }
