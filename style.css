@@ -71,6 +71,12 @@ label {
     font-size: 1.1rem;
     color: white;
     background-color: var(--violet-600);
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    font-weight: bold;
 }
 
 #output {
