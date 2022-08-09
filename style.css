@@ -35,10 +35,13 @@ h1 {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     margin-top: 4rem;
     text-align: center;
+    padding: 1rem;
+    box-shadow: 10px 10px 25px 5px lightgray;
+    border-radius: 1.5rem;
 }
 
 .input-div {
@@ -52,13 +55,13 @@ h1 {
     width: 300px;
     height: 30px;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 label {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #check-button {
@@ -74,4 +77,15 @@ label {
     margin: 2rem 1rem;
     font-size: 1.25rem;
 
+}
+
+@media(max-width: 650px){
+    .container {
+        margin: 2rem;
+        margin-top: 4rem;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
 }
