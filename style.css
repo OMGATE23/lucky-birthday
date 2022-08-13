@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-   --violet-50: #f5f3ff;
-   --violet-100: #ede9fe;
-   --violet-200: #ddd6fe;
-   --violet-300: #c4b5fd;
-   --violet-400: #a78bfa;
-   --violet-500: #8b5cf6;
-   --violet-600: #7c3aed;
-   --violet-700: #6d28d9;
-   --violet-800: #5b21b6;
-   --violet-900: #4c1d95;
+   --orange-50: #fff7ed;
+   --orange-100: #ffedd5;
+   --orange-200: #fed7aa;
+   --orange-300: #fdba74;
+   --orange-400: #fb923c;
+   --orange-500: #f97316;
+   --orange-600: #ea580c;
+   --orange-700: #c2410c;
+   --orange-800: #9a3412;
+   --orange-900: #7c2d12;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 header {
     text-align: center;
-    background-color: var(--violet-700);
+    background-color: var(--orange-400);
     color: white;
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
@@ -70,7 +70,7 @@ label {
     padding: 0.75rem 1.5rem;
     font-size: 1.1rem;
     color: white;
-    background-color: var(--violet-600);
+    background-color: var(--orange-400);
     cursor: pointer;
 }
 
